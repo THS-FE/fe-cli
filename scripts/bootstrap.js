@@ -1,36 +1,20 @@
 const program = require('commander');
 
 program
-//cli版本号
-    .version(require('../package').version, '-v, --version')
+    //cli版本号
+    .version(require('../package').version, '-v, --version');
 
 program
+    //初始化项目
     .command('init <name>')
     .description('generate a new project from a template')
     .action((name) => {
-            require('./init')('direct:https://github.com/THS-FE/Html5Template/archive/master.zip', {clone: false});
-            console.log("name:" + name);
+            // if (!name) {
+            //     console.log('Every great project needs a name!');
+            // }
+            require('./init')('direct:' + require('../package').template.h5, process.cwd() + '\\' + name, {clone: false});
         }
-    )
-
-//
-// program
-//     .command('exec <cmd>')
-//     .alias('ex')
-//     .description('execute the given remote cmd')
-//     .option('-e, --exec_mode <mode>', 'Which exec mode to use')
-//     .actifbion((cmd, options) => {
-//         console.log('exec "%s" using %s mode', cmd, options.exec_mode);
-//     })
-//     .on('--help', () => {npm
-//
-//     });
-//
-// program
-//     .command('*')
-//     .action((env) => {
-//         console.log('deploying "%s"', env);
-//     });
+    );
 
 program.parse(process.argv);
 

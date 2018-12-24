@@ -1,0 +1,32 @@
+{
+  "name": "tfbi",
+  "version": "1.1.1",
+  "description": "",
+  "bin": {
+    "tfbi": "./bin/fbi.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cli-spinner": "^0.2.8",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "fs-extra": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THS-FE/fe-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/THS-FE/fe-cli/issues"
+  },
+  "homepage": "https://github.com/THS-FE/fe-cli#readme",
+  "template": {
+    "h5": "https://github.com/THS-FE/Html5Template/archive/master.zip"
+  }
+}
