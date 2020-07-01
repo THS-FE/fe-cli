@@ -1,6 +1,6 @@
 {
   "name": "tfbi",
-  "version": "1.1.3",
+  "version": "2.0.1",
   "description": "",
   "bin": {
     "fbi": "./bin/fbi.js"
@@ -35,6 +35,7 @@
     "h5": "https://github.com/THS-FE/Html5Template/archive/master.zip",
     "vue2-starter-js": "https://github.com/THS-FE/vue2-starter-js/archive/master.zip",
     "vue2-starter-ts": "https://github.com/THS-FE/vue2-starter-ts/archive/master.zip",
-    "typescript-webpack-starter": "https://github.com/THS-FE/typescript-webpack-starter/archive/master.zip"
+    "typescript-webpack-starter": "https://github.com/THS-FE/typescript-webpack-starter/archive/master.zip",
+    "nest-starter": "https://github.com/THS-FE/nest-starter/archive/master.zip"
   }
 }
