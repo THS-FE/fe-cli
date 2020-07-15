@@ -36,6 +36,7 @@
     "vue2-starter-js": "https://github.com/THS-FE/vue2-starter-js/archive/master.zip",
     "vue2-starter-ts": "https://github.com/THS-FE/vue2-starter-ts/archive/master.zip",
     "typescript-webpack-starter": "https://github.com/THS-FE/typescript-webpack-starter/archive/master.zip",
-    "nest-starter": "https://github.com/THS-FE/nest-starter/archive/master.zip"
+    "nest-starter": "https://github.com/THS-FE/nest-starter/archive/master.zip",
+    "big-screen": "https://github.com/THS-FE/big-screen/archive/master.zip"
   }
 }

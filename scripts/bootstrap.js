@@ -28,6 +28,9 @@ program
                 case 'nest-starter':
                   require('./init')('direct:' + require('../package').template['nest-starter'], process.cwd() + '\\' + name, {clone: false});
                   break;
+                case 'big-screen':
+                  require('./init')('direct:' + require('../package').template['big-screen'], process.cwd() + '\\' + name, {clone: false});
+                  break;
                 default: 
                   otherDirs.reduce((val1, val2) => (val1 + val2));
                   console.log(error(`error: ${otherDirs} doesn't exist.`));
